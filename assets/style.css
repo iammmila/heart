@@ -1,0 +1,30 @@
+.contain {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.img-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    background-color: black;
+    border-radius: 50%;
+    top: 69px;
+    right: 76px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+button {
+    color: black;
+    background-color: red;
+    display: block;
+}
